@@ -1,5 +1,3 @@
-[README.md](https://github.com/user-attachments/files/27561817/README.md)
-
 # SignalIQ — Analisador de Apostas com IA
 
 ## Como subir na Vercel (passo a passo)
@@ -11,11 +9,7 @@
 4. Clique em **"Create repository"**
 5. Na próxima tela, clique em **"uploading an existing file"**
 6. Arraste TODOS os arquivos desta pasta para lá
-7. Clique e.env
-.env.local
-node_modules
-.next
-m **"Commit changes"**
+7. Clique em **"Commit changes"**
 
 ### 2. Subir na Vercel
 1. Acesse vercel.com e faça login com o GitHub
@@ -37,11 +31,8 @@ Seu site estará no ar em `signaliq.vercel.app` (ou similar).
 ---
 
 ## Mercados disponíveis
-- 🚫 Lay 2x2 (sc[next.config.js](https://github.com/user-attachments/files/27561819/next.config.js)ore mínimo: 82)
-- 🦓 Lay Zebra [package.json](https://github.com/user-attachments/files/27561818/package.json)(score mínimo: 85)
+- 🚫 Lay 2x2 (score mínimo: 82)
+- 🦓 Lay Zebra (score mínimo: 85)
 - ⚽ +1.5 Gols (score mínimo: 83)
 - 🥅 +0.5 Gols (score mínimo: 88)
-- 🎾 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-module.exports = nextConfig
-Vencedor Tênis (score mínimo: 84)
+- 🎾 Vencedor Tênis (score mínimo: 84)
